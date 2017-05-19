@@ -1,3 +1,26 @@
 body{
-	background-color: green;
+	
+	font-family: 'Arimo', sans-serif;
+}
+h1{
+	margin-top: 1em;
+}
+.caja-grande{
+	width: 800px;
+	background-color: #DD0000;
+	padding: 20px;
+}
+.caja{
+	background-color: #C9EC5D;
+	padding: 20px;
+	margin: 0;
+	/*
+	para no dejar espacio 
+	margin: 0 1.5px;*/
+	display: inline-block;
+	box-sizing: border-box;
+	width: 196px;
+}
+.caja.no{
+	display: none; /*DESAPARECE Y DEJA DE OCUPAR UN ESPACIO*/
 }
